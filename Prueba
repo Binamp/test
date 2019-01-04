@@ -1,0 +1,21 @@
+La idea de estos ejercicios, es realizarlos en el lenguaje que les sea comodo, y hacerlos en el menor tiempo posible, luego de proponer una solucion.
+Les pido que si ya han visto estos ejercicios me digan y les envio otros y... no busquen respuestas en internet.
+Cualquier consulta, o duda de los enunciados o como resolverlos es bienvenida. Cuando quieran, podemos hacer una llamada y charlar de los enunciados.
+
+Ejercicios:
+
+1)Dada una lista ordenada, eliminar todos los duplicados para que cada elemento aparezca solo una vez. 
+Ejemplo 1:
+Entrada: 1->1->2
+Output: 1->2
+
+Ejemplo 2:
+Entrada: 1->1->2->3->3
+salida: 1->2->3
+
+2)Dado un diccionario/mapa de palabras, que pueden ser de cualquier largo, y tomando una palabra de entrada buscar todas las secciones (sub strings) que esten contenidas en el diccionario.
+
+Ejemplo, Diccionario : a, aa, aaa , Palabra de entrada : aaabaa, la salida deberia ser: a, a, a, aa, aa, aaa, a, a, aa.
+
+3)Dado un archivo de texto plano, escribir en un archivo o consola el mismo texto removiendo las palabras duplicadas. Se debe mantener el orden del texto original sin las palabras duplicadas.
+Ejemplo, el archivo dice: Yo soy bueno. Vos sos bueno. La salida deberia ser Yo soy Vos sos
