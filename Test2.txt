@@ -1,4 +1,4 @@
-Solve the following excercises with the language you like most or pseudocode.
+Solve the following exercises with the language you like most or pseudocode.
 
 1) Delete all duplicated elements from a given List
    (The list is not necessary sorted)
