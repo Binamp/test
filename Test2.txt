@@ -1,0 +1,66 @@
+Solve the following exercises with the language you like most or pseudocode.
+
+1) Delete all duplicated elements from a given List
+   (The list is not necessary sorted)
+
+    Examples:
+        Input: [2,1,1]
+        Output: [1,2]
+
+        Input: [1,3,2,1,3]
+        Output: [1,2,3]
+
+
+2) Given dictionary, where words can be any length, and an Input String.
+   Search for all the substrings from the given String that are in the
+   dictionary.
+
+    Example:
+        Input:
+            Dictionary: ["a","aa","aaa"]
+            String: "aaabaa"
+        Output: ["a","a","a","aa","aa","aaa","a","a","aa"]
+
+3) Given a string 's' and a pattern 'p', create the pattern coincidence for special 
+   patterns for '?' and '*'.
+
+    '?' Matches with any single char.
+    '*' Matches with any sequence of chars.
+
+    The coincidence must cover all the input string (not partially).
+    Note:
+        's' can be composed by lowcase letters from a-z and chars like '?' and '*'.
+
+    Example 1:
+        Input: s = "aa"
+               p = "a"
+        Output: False
+
+    "a" doesn't match with all the string "aa".
+
+    Example 2:
+        Input: s = "aa"
+               p = "*"
+        Output: True
+
+    '*' matches with any sequence
+
+    Example 3:
+        Input: s = "cb"
+               p = "? a"
+        Output: False
+    
+    '?' matches with 'c' but the second char 'a' doesn't match with 'b'
+
+4) Combine the k linked list into one sorted linked list. 
+   Analize and comment how is the complexity, computationally speaking,
+   of your answer.
+   Remember each element is defined like this:
+        -------------     ---------
+        |   Value   |     |       |  where neighboor is a pointer and value
+        | Neighboor | --> |       |  an Integer
+        -------------     ---------  
+
+    Example:
+        Input: [1 -> 4 -> 5] , [1 -> 3 -> 4] , [2 -> 6] 
+        Output: [1-> 1-> 2-> 3-> 4-> 4-> 5-> 6]
